@@ -36,18 +36,16 @@ npm install
 cd ../
    ```
    
-4. If desired, you can run tests with pytest:
+3. Setup your AWS configuration locally to get access to your own S3 bucket
 
-```pytest```
-
-5. Start the server*:
+4. Start the server*:
 
 ```
 python main.py
 ```
 *Note that your python command may vary, such as python3
 
-6. In a new terminal, start the client:
+5. In a new terminal, start the client:
 ```
 cd client
 npm start
